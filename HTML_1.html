@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JavaScript_1</title>
+        <meta charset="utf-8">
+      
+    </head>
+
+    <body>
+
+        <p id="fav_flav">Choose your favorite style of wine and enter below</p>
+            <ul>
+                <li>Chardonnay</li>
+                <li>Sauvignon Blanc</li>
+                <li>Pinot Gris</li>
+                <li>Riesling</li>
+                <li>Moscato</li>
+                <li>Cabernet Sauvignon</li>
+                <li>Pinot Noir</li>
+                <li>Merlot</li>
+                <li>Syrah</li>
+                <li>Zinfandel</li>
+            </ul>
+
+        <input id="wine_choice"type="text">
+        <button onclick="submit_wine()">Submit</button>
+        <p id="wine_output"></p>
+
+        <div id="change_by_class_name">
+            <h1 class="change">This will not change</h1>
+            <h2 class="change">This also will not change</h2>
+            <h3 class="change">This will be changing!</h3>
+            <button onclick="class_change()">Click here for a change</button>
+        </div>
+
+        <div id="canvas_elements">
+            <img id= "wine_glasses" width="490" height= "200" src="wine_glasses.jpg" alt="white wine" style="display: none">
+            <canvas id="firstCanvas" width="500" height="250" style="border: 1px solid black"></canvas>
+
+            <canvas id="secondCanvas" width="500" height="250" style="border: 2px solid black"></canvas>
+        </div>
+        <script src="JavaScript/JavaScript_1.js"></script>
+    </body>
+
+</html>
